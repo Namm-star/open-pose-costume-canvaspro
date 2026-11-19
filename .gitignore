@@ -1,0 +1,41 @@
+node_modules/
+dist/
+.DS_Store
+test-results/
+playwright-report/
+.env*
+!.env.example
+*.tsbuildinfo
+artifacts/
+.wrangler/
+/worker/worker-configuration.d.ts
+
+# Local credentials and generated images
+*.pem
+*.pfx
+*.key
+/output/
+
+# Upstream assets and catalog data are licensed separately from the code
+/pose/
+/costume/
+/assets/brand/
+/docs/images/
+/public/brand/
+/public/data/
+/public/guide/
+/public/images/
+/public/social/
+/public/*.ico
+/public/*.png
+/public/custom/*
+!/public/custom/LICENSE.txt
+/data/*
+!/data/vocabulary.json
+!/data/custom/
+/data/custom/*
+!/data/custom/README.md
+
+# The upstream site's deployment configuration
+/.github/
+/deploy/
